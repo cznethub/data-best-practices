@@ -1,17 +1,20 @@
 # Critical Zone Collaborative Network Data Best Practices
 This repository contains best practices developed by the Critical Zone Collaborative Network (CZ Net) for sharing data related to the Critical Zone.
 
-The following best practice guides are available:
+For overall data sharing and publication guidance, please read the following first:
 
-1. [Guidance for all CZ Net Data Publication](data_publication_guidance.md)
-2. [Registering Samples and Sharing Data Derived from Samples](sample_data/sample_data.md)
-3. [Sharing Geospatial Data](geospatial_data/geospatial_data.md)
-4. [Sharing Environmental Time Series Data](time_series_data/time_series_data.md)
-5. [Sharing Multiple Data Types Together](multiple_data_types/multiple_data_types.md)
+[Guidance for all CZ Net Data Publication](data_publication_guidance.md)
+
+For guidance on specific data types, please consultt the following best practice guides:
+
+1. [Registering Samples and Sharing Data Derived from Samples](sample_data/sample_data.md)
+2. [Sharing Geospatial Data](geospatial_data/geospatial_data.md)
+3. [Sharing Environmental Time Series Data](time_series_data/time_series_data.md)
+4. [Sharing Multiple Data Types Together](multiple_data_types/multiple_data_types.md)
 
 ## License
 
-The Data Submission Portal is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)][cc-by] license. 
+The content in this repository is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)][cc-by] license. 
 
 [![CC BY 4.0][cc-by-image]][cc-by]
 
