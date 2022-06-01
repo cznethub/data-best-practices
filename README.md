@@ -10,7 +10,12 @@ The following best practice guides are available:
 
 ## License
 
-The Data Submission Portal is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. This means that you can do what you want, so long as you don't mess with the trademark, and as long as you keep the license with the source code.
+The Data Submission Portal is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)][cc-by] license. 
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 
 ## Funding and Acknowledgements
 
