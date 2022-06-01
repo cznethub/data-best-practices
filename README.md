@@ -3,10 +3,11 @@ This repository contains best practices developed by the Critical Zone Collabora
 
 The following best practice guides are available:
 
-1. Registering Samples and Sharing Data Derived from Samples
-2. Sharing Geospatial Data
-3. Sharing Environmental Time Series Data
-4. Sharing Multiple Data Types Together
+1. [Guidance for all CZ Net Data Publication](data_publication_guidance.md)
+2. [Registering Samples and Sharing Data Derived from Samples](sample_data/sample_data.md)
+3. [Sharing Geospatial Data](geospatial_data/geospatial_data.md)
+4. [Sharing Environmental Time Series Data](time_series_data/time_series_data.md)
+5. [Sharing Multiple Data Types Together](multiple_data_types/multiple_data_types.md)
 
 ## License
 
