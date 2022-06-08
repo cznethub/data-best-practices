@@ -1,4 +1,4 @@
-# Best Practices for Registering and Creating Metadata for Physical Samples
+# Best Practices for Sharing Samples and Sample Metadata
 
 ## Sample Metadata and Collection Management with SESAR
 
