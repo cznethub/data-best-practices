@@ -8,11 +8,11 @@ If you need help with data management or have questions about the guidance provi
 
 ### Join Us in the CZNet Slack Workspace
 
-The CZNet Slack workspace was established to foster communication between the thematic clusters and with the CZNet Hub team. If you haven’t joined the CZNet Slack workspace, we encourage you to join us there. There are specific channels set up within the workspace for topical discussions. If you would like to join the CZNet Slack workspace, please email us at [cznet@cuahsi.org](mailto:help@cuahsi.org).
+The CZNet Slack workspace was established to foster communication between the thematic clusters and with the CZNet Hub team. If you haven’t joined the CZNet Slack workspace, we encourage you to join us there. There are specific channels set up within the workspace for topical discussions. If you would like to join the CZNet Slack workspace, please email us at [help@cuahsi.org](mailto:help@cuahsi.org).
 
 ### Contact Us Directly via Email
 
-For specific questions about CZNet data management, please contact us at [cznet@cuahsi.org](mailto:help@cuahsi.org). Be sure to include “CZNet” in the subject line of the email you send. We will route these emails to the person(s) who we think can best answer your questions.
+For specific questions about CZNet data management, please contact us at [help@cuahsi.org](mailto:help@cuahsi.org). Be sure to include “CZNet” in the subject line of the email you send. We will route these emails to the person(s) who we think can best answer your questions.
 
 ## Which Repository Should I Use?
 
