@@ -57,8 +57,9 @@ The CZ Hub Team will be working to provide a coordinated view of all CZNet data/
 To accomplish this, we ask that you do the following, regardless of which repository you deposit your data in:
 
 1. Tag your dataset/product with the subject keyword “CZNet”.
-2. Ensure that you enter funding information, including funding agency (National Science Foundation), award number, and, if possible given the metadata elements available, award title.
-3. Make sure that your dataset is publicly available. HydroShare, EarthChem, and Zenodo enable private content. We may not be able to discover and catalog your datasets/products until you have made them publicly available.
+2. Tag your dataset/product with a subject keyword that is unique to your Thematic Cluster project. Use this keyword consistently for all products you share.
+3. Ensure that you enter funding information, including funding agency (National Science Foundation), award number, and, if possible given the metadata elements available, award title.
+4. Make sure that your dataset is publicly available. HydroShare, EarthChem, and Zenodo enable private content. We may not be able to discover and catalog your datasets/products until you have made them publicly available.
 
 ### Guidance for HydroShare, EarthChem, and Zenodo
 
