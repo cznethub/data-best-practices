@@ -6,7 +6,7 @@ Environmental time series data consist of collections of observations obtained t
 
 ## Repositories for Sharing Time Series Data
 
-We recommend depositing time series datasets in the [HydroShare repository](http://hydroshare.org). You can submit your data to HydroShare directly through the submission page for HydroShare in this Data Submission Portal.
+We recommend depositing time series datasets in the [HydroShare repository](http://hydroshare.org). You can submit your data to HydroShare directly but we recommend submitting your data through the CZNet Data Submission Portal.
 
 If you need help with using HydroShare, visit the [HydroShare help system](http://help.hydroshare.org). You can also learn about the [Time Series Content Type in HydroShare](https://help.hydroshare.org/hydroshare-resources/content-types/time-series/).
 
@@ -36,6 +36,7 @@ ASCII text files, e.g., comma separated values (CSV) are a recommended format fo
 
 Best practices for formatting your time series data with CSV files include:
 
+* Use a CSV text editor that will not change the formatting of your file, the line ending characters, or the format of the date/time values in your file. Good text editors for Mac include Sublime Text and BBEdit. Good text editors for PC include Sublime Text and Notepad ++.
 * Include all relevant metadata as a header in each data file. For example, include descriptions of the site, variable, method, source, data level, and any data qualifiers in the header of the file.
 * Precede header lines with a comment character “#” to make it easy for code to skip header lines when reading the file.
 * Each line of the data file should have a single timestamp.
