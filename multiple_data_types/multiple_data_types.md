@@ -66,4 +66,8 @@ Logan River Observatory (2021). Logan River Observatory Datasets, HydroShare, ht
 
 Sometimes, you may want to group datasets together so that people can find them more easily, so that they can be accessed together and so that prospective data users can more easily understand the context of the data. Examples include grouping all of the data for a particular data collection site or all of the data for a particular project. This scenario is pretty similar to Scenario 1, with similar solutions (see above).
 
+## Additional Best Practices for Sharing Multiple Data Types Together
 
+The following recommendations are not meant to represent an exhaustive list but will provide relevant guidance. If you have specific questions about sharing multiple data types together, please feel free to contact us.
+
+* **Use related resources metadata**: If the reason you are sharing multiple data types together is to group the data you used for a publication (or some similar use case), use the Related Resources metadata to provide a link to the paper. Best practice is to provide a full bibliographic citation for the paper or related resource if you can (e.g., author(s), year, title, journal, volume, issue, pages, URL-encoded DOI). You may also want to add references to other, related datasets or other resources on the Internet that are in some way related to the content you are sharing.
