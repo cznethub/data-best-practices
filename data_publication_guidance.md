@@ -73,6 +73,18 @@ We will be using “community” and “group” functionality within the differ
 
 We know that our list of supported repositories may not meet the needs of all of the CZNet cluster projects for all of the different types of data products. If you choose to submit your data/product(s) to a repository other than the ones in our list of supported repositories, we will be unable to discover and catalog those products unless you tell us about them. Please make sure that you register these data products with the CZNet Data Submission Portal. 
 
+## Use Common Quality Control/Data Levels
+
+We suggest a set of standardized quality control/data levels that can be used to describe data. These data levels are independent of data type. Including a specific data level as part of the metadata for a dataset will help potential users understand how the data can/should be used. Suggested data levels are listed in the following table.
+
+| Level | Definition | Explanation |
+| ----- | ---------- | ----------- |
+| 0 | Raw data | Raw and unprocessed data and data products that have not undergone quality control. Depending on the variable, data type, and data transmission system, raw data may be available within seconds or minutes after the measurements have been made. Examples include real time precipitation, streamflow, and water quality measurements. |
+| 1 | Quality controlled data | Quality controlled data that have passed quality assurance procedures such as routine estimation of timing and sensor calibration or visual inspection and removal of obvious errors. An example is USGS published streamflow records following parsing through USGS quality control procedures. |
+| 2 | Derived products | Derived products that require scientific and technical interpretation and may include multiple-sensor data. An example is basin average precipitation derived from rain gages using an interpolation procedure. |
+| 3 | Interpreted products | Interpreted products that require researcher driven analysis and interpretation, model-based interpretation using other data and/or strong prior assumptions. An example is basin average precipitation derived from the combination of rain gages and radar return data. |
+| 4 | Knowledge products | Knowledge products that require researcher driven scientific interpretation and multidisciplinary data integration and include model-based interpretation using other data and/or strong prior assumptions. An example is percentages of old or new water in a hydrograph inferred from an isotope analysis. |
+
 ## Linking Datasets with Publications
 
 We strongly recommend creating formal linkages between the datasets you have deposited within the above mentioned repositories and any manuscripts that you submit for publication that use or are based on the data. This ensures that anyone who discovers the paper can link to and access the data used and anyone who discovers the data can link to and access publications that have used the data.
