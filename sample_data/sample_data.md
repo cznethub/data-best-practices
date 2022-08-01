@@ -1,4 +1,4 @@
-# Best Practices for Sharing Laboratory Analystical Data
+# Best Practices for Sharing Laboratory Analytical Data
 
 ## Sample Metadata and Collection Management with SESAR
 
