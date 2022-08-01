@@ -8,7 +8,7 @@ For overall data sharing and publication guidance, please read the following fir
 For guidance on specific data types, please consultt the following best practice guides:
 
 1. [Sharing Samples and Sample Metadata](sample_data/registering_samples.md)
-2. [Sharing Data Derived from Samples](sample_data/sample_data.md)
+2. [Sharing Laboratory Analytical Data](sample_data/sample_data.md)
 3. [Sharing Geospatial Data](geospatial_data/geospatial_data.md)
 4. [Sharing Environmental Time Series Data](time_series_data/time_series_data.md)
 5. [Sharing Multiple Data Types Together](multiple_data_types/multiple_data_types.md)
