@@ -1,4 +1,4 @@
-# Best Practices for Sharing Data Derived from Physical Samples
+# Best Practices for Sharing Laboratory Analystical Data
 
 ## Sample Metadata and Collection Management with SESAR
 
