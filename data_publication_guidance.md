@@ -1,6 +1,18 @@
 # Best Practices for Sharing and Publishing CZNet Data
 
-The CZ Hub Team is developing a Data Submission Portal to meet the needs of the CZ Collaborative Network (CZNet). The Data Submission Portal provides guidance regarding which data repositories into which products should be deposited and also provides functionality that allows submission of data to the appropriate repository through the Portal. Once the Portal is operational, we recommend that all data and research products be submitted to the appropriate repository through the Portal. We provide the following additional guidance for submitting data for sharing and publication.
+The CZ Hub Team has developed a Data Submission Portal (https://dsp.criticalzone.org) to meet the needs of the CZ Collaborative Network (CZNet). The Data Submission Portal provides guidance regarding which data repositories into which products should be deposited and also provides functionality that allows submission of data to the appropriate repository through the Portal. We recommend that all data and research products be submitted to the appropriate repository through the Portal. We provide the following additional guidance for submitting data for sharing and publication.
+
+## Content of this General Best Practice Document
+
+* [How to Contact Us](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#how-to-contact-us)
+* [Which repository should I use?](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#which-repository-should-i-use)
+* [General Guidance for all CZNet Data and Research Products to be Submitted](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted)
+* [Specific Guidance for CZNet Data and Research Products](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#specific-guidance-for-cznet-data-and-research-products)
+* [Use Common Quality Control/Data Levels](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#use-common-quality-controldata-levels)
+* [Use Consistent Missing Data Labels](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#use-consistent-missing-data-labels-nodata-values)
+* [Linking Datasets with Publications](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#linking-datasets-with-publications)
+* [Potentially Useful Data Management Resources](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#potentally-useful-data-management-resources)
+
 
 ## How to Contact Us
 
@@ -84,6 +96,14 @@ We suggest a set of standardized quality control/data levels that can be used to
 | 2 | Derived products | Derived products that require scientific and technical interpretation and may include multiple-sensor data. An example is basin average precipitation derived from rain gages using an interpolation procedure. |
 | 3 | Interpreted products | Interpreted products that require researcher driven analysis and interpretation, model-based interpretation using other data and/or strong prior assumptions. An example is basin average precipitation derived from the combination of rain gages and radar return data. |
 | 4 | Knowledge products | Knowledge products that require researcher driven scientific interpretation and multidisciplinary data integration and include model-based interpretation using other data and/or strong prior assumptions. An example is percentages of old or new water in a hydrograph inferred from an isotope analysis. |
+
+## Use Consistent Missing Data Labels (NoData Values)
+
+Missing data labels, or NoData values, are values that you insert into your data to indicate that a value for an observation should exist but for some reason doesn't. Usually, these values are selected such that they are easily recognizable and out of the valid range of data values for whatever the observed variable is. We recommend the following practices for CZNet datasets
+* If you use a NoData value, make sure you define it in associated metadata
+* The preferred NoData value for CZNet datasets is -9999
+* Don't mix strings and numeric values in a single data column. For example, don't insert a NoData value of "NA" into a numeric data column.
+* Work to educate students, colleagues, and collaborators what -9999 means in a dataset to minimize potential errors in analyses.
 
 ## Linking Datasets with Publications
 
