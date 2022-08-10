@@ -5,13 +5,13 @@ The CZ Hub Team has developed a Data Submission Portal (https://dsp.criticalzone
 ## Content of this General Best Practice Document
 
 * [How to Contact Us](#how-to-contact-us)
-* [Which repository should I use?](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#which-repository-should-i-use)
-* [General Guidance for all CZNet Data and Research Products to be Submitted](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted)
-* [Specific Guidance for CZNet Data and Research Products](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#specific-guidance-for-cznet-data-and-research-products)
-* [Use Common Quality Control/Data Levels](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#use-common-quality-controldata-levels)
-* [Use Consistent Missing Data Labels](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#use-consistent-missing-data-labels-nodata-values)
-* [Linking Datasets with Publications](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#linking-datasets-with-publications)
-* [Potentially Useful Data Management Resources](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#potentally-useful-data-management-resources)
+* [Which repository should I use?](#which-repository-should-i-use)
+* [General Guidance for all CZNet Data and Research Products to be Submitted](#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted)
+* [Specific Guidance for CZNet Data and Research Products](#specific-guidance-for-cznet-data-and-research-products)
+* [Use Common Quality Control/Data Levels](#use-common-quality-controldata-levels)
+* [Use Consistent Missing Data Labels](#use-consistent-missing-data-labels-nodata-values)
+* [Linking Datasets with Publications](#linking-datasets-with-publications)
+* [Potentially Useful Data Management Resources](#potentally-useful-data-management-resources)
 
 
 ## How to Contact Us
