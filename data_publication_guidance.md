@@ -4,7 +4,7 @@ The CZ Hub Team has developed a Data Submission Portal (https://dsp.criticalzone
 
 ## Content of this General Best Practice Document
 
-* [How to Contact Us](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#how-to-contact-us)
+* [How to Contact Us](#how-to-contact-us)
 * [Which repository should I use?](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#which-repository-should-i-use)
 * [General Guidance for all CZNet Data and Research Products to be Submitted](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted)
 * [Specific Guidance for CZNet Data and Research Products](https://github.com/cznethub/data-best-practices/edit/develop/data_publication_guidance.md#specific-guidance-for-cznet-data-and-research-products)
