@@ -54,9 +54,10 @@ We offer the following general guidelines for submitting your data and other res
 
 1. **Use the Best Practices and Templates Described in this Repository**: Please follow the specific best practices, data formats, and templates described in this repository.
 2. **Start assembling your data now**: We recommend that you begin thinking about which products (e.g., data, images, samples, code) you will generate. Assemble and document them as early as possible after generating them (it will save you time later), and register them within one of the above repositories. You need not wait until your data are ready for formal publication. HydroShare, EarthChem, and Zenodo all offer the ability to upload private content, allowing you to capture and store your data safely while your research and publication process is ongoing. Then share and publish when you are ready. Register your samples online in SESAR.
-3. **Tag your data with appropriate metadata**: Use the repository’s submission form and templates to enter descriptive metadata for your products. Metadata should include information needed to discover and cite your products, but also additional information required to interpret your content (e.g., procedures used to collect or analyze samples or observations).
-4. **Use common, open, and accepted data formats**: We know that the data you are creating are diverse and that there is not always specific guidance for how to organize your data and which file formats to use. We have provided some links to general data management resources in the section at the end of this document. If you have questions about what to do, please contact us.
-5. **Include a “readme” file**: A readme file can include detailed information about the structure or content of your data or research product. It can also be used to describe how to perform specific analyses to make your research results more reproducible. If you upload a “readme.txt” or “readme.md” file to your resource in HydroShare, it will be displayed on the landing page for your resource.
+3. **Create a descriptive title for your data product**: Put some thought into the title of your dataset. See the guidance in the section below about how to construct a descriptive title for your dataset.
+4. **Tag your data with appropriate metadata**: Use the repository’s submission form and templates to enter descriptive metadata for your products. Metadata should include information needed to discover and cite your products, but also additional information required to interpret your content (e.g., procedures used to collect or analyze samples or observations).
+5. **Use common, open, and accepted data formats**: We know that the data you are creating are diverse and that there is not always specific guidance for how to organize your data and which file formats to use. We have provided some links to general data management resources in the section at the end of this document. If you have questions about what to do, please contact us.
+6. **Include a “readme” file**: A readme file can include detailed information about the structure or content of your data or research product. It can also be used to describe how to perform specific analyses to make your research results more reproducible. If you upload a “readme.txt” or “readme.md” file to your resource in HydroShare, it will be displayed on the landing page for your resource.
 
 We have included links to additional documentation that may assist you in preparing your datasets and research products for sharing and publication. We are always happy to discuss specific questions you may have.
 
@@ -84,6 +85,29 @@ We will be using “community” and “group” functionality within the differ
 ### Guidance for Data/Products Submitted to Other Repositories
 
 We know that our list of supported repositories may not meet the needs of all of the CZNet cluster projects for all of the different types of data products. If you choose to submit your data/product(s) to a repository other than the ones in our list of supported repositories, we will be unable to discover and catalog those products unless you tell us about them. Please make sure that you register these data products with the CZNet Data Submission Portal. 
+
+## Construct a Descriptive Title for Your Data Product
+
+One of the most important metadata elements for your data product is the title. This piece of information is cataloged to enable discovery of your data product, and it is also included in the citation for your dataset. Anyone who uses your data product will cite your data using the title you construct. Consider the following suggestions when constructing a title for your data product:
+
+* Make your title brief, but descriptive of the contents of the dataset. Since data products are first class research products - consider giving your data product a title that is similar to the type of title you construct for your journal papers.
+
+> Example: Seasonal changes in organic matter composition and nutrients in coastal urban canals of Miami-Date County, Florida
+
+* You may want to include a geographic area, site name or code, or an indication that the data product is affiliated with your thematic cluster project in the title.
+
+> Example: Air temperature data for Dead Run watershed, Baltimore County, MD, USA
+
+* Consider including brief information about the content of your data product in the title.
+
+> Example: Watershed boundaries, hydrography, stream gage locations, and impervious surface area shapefiles for Pennypack Creek watershed in Bucks, Montgomery and Philadelphia Counties, PA, USA
+
+* Avoid including acronyms in your title.
+* Avoid including special characters (e.g., "&", "+", "%", or characters that are reserved for programming languages) in your title.
+* Avoid including metadata in your title that belongs in other metadata fields. Try not to overload your title by concatenating a bunch of information into a cryptic title that nobody will understand.
+* If your data product is specifically tied to a journal publication (i.e., it contains the exact data used in that publication), consider titling your data product similar to "Supporting data for X" where "X" is the title of the related publication. If you anticipate that your data product will be used by multiple journal publications, a more generic title would be better.
+
+>Example: Supporting data and tools for "Impact of data temporal resolution on quantifying residential end uses of water"
 
 ## Use Common Quality Control/Data Levels
 
