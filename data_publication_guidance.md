@@ -8,6 +8,8 @@ The CZ Hub Team has developed a Data Submission Portal (https://dsp.criticalzone
 * [Which repository should I use?](#which-repository-should-i-use)
 * [General Guidance for all CZNet Data and Research Products to be Submitted](#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted)
 * [Specific Guidance for CZNet Data and Research Products](#specific-guidance-for-cznet-data-and-research-products)
+* [Construct a Descriptive Title for Your Data Product](#construct-a-descriptive-title-for-your-data-product)
+* [Select Keywords for your Data Product](#select-keywords-for-your-data-product)
 * [Use Common Quality Control/Data Levels](#use-common-quality-controldata-levels)
 * [Use Consistent Missing Data Labels](#use-consistent-missing-data-labels-nodata-values)
 * [Linking Datasets with Publications](#linking-datasets-with-publications)
@@ -108,6 +110,27 @@ One of the most important metadata elements for your data product is the title. 
 * If your data product is specifically tied to a journal publication (i.e., it contains the exact data used in that publication), consider titling your data product similar to "Supporting data for X" where "X" is the title of the related publication. If you anticipate that your data product will be used by multiple journal publications, a more generic title would be better.
 
 >Example: Supporting data and tools for "Impact of data temporal resolution on quantifying residential end uses of water"
+
+## Select Keywords for your Data Product
+
+Keywords are important metadata that help categorize and describe your data product. They are also important in enabling other scientists and prospective data users to discover your data product. Use the following guidelines to select appropriate keywords to describe your dataset:
+
+* Tag your dataset/product with the subject keyword “CZNet” (see specific guidance for CZNet data products above).
+* Tag your dataset/product with a subject keyword that is unique to your Thematic Cluster project. Use this keyword consistently for all products you share (see specific guidance for CZNet data products above).
+* Add keywords that describe the subject of your data product (e.g., "Critical Zone", "Streamflow", "Water quality").
+* Add keywords that describe the geographic area to which your dataset applies (e.g., "Utah", "Logan River Watershed")
+* Capitalize the first letter of keywords. If your keyword is a phrase, capitalize only the first word (e.g., "Water quality"). If your keyword is a proper name, capitalize the first letter of each word (e.g., "Logan River Watershed").
+* Avoid misspelling or using variants of the same keyword (e.g., use "Temperature" consistently rather than "Temp.")
+* Full phrases will have more meaning, but add acronyms if you want to enable discovery using that term. For example "Logan River Observatory" is more informative than "LRO", but some users may want to search using "LRO". In this case you may want to add both.
+* Keywords may be a single word or several words (e.g., phrases), but keep them very brief. This isn't the place for sentences.
+* Choose keywords that are commonly used to describe the type of data product you are describing.
+* Avoid special characters (e.g., characters reserved for programming languages), abbreviations, and contractions. 
+* Do not use punctuation.
+* You may consider keywords that describe observed variables (e.g., "Temperature", "Nitrogen"), and/or methods used to produce the data product. However, avoid using units in your keywords (e.g., use "Discharge" not "Discharge (m3/s)"). 
+* Where you choose keywords describing observed variables, consider selecting them from the ODM2 VariableName controlled vocabulary [http://vocabulary.odm2.org/variablename/](http://vocabulary.odm2.org/variablename/).
+* You may consider using keywords that have been used by other, similar data products to ensure that they can be discovered together. You can even test this by searching HydroShare, EarthChem, or other repositories using specific keywords to see what is returned before you select your final set of keywords.
+
+Remember - the keywords you use to describe your data product will be part of the metadata that is cataloged and used to enable discovery of your data product. Choose keywords that you think will help people find your data product. Leave all of the other descriptive metadata for the other descriptive metadata elements (e.g., Title, Abstract, etc.).
 
 ## Use Common Quality Control/Data Levels
 
