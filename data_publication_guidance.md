@@ -9,6 +9,7 @@ The CZ Hub Team has developed a Data Submission Portal (https://dsp.criticalzone
 * [General Guidance for all CZNet Data and Research Products to be Submitted](#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted)
 * [Specific Guidance for CZNet Data and Research Products](#specific-guidance-for-cznet-data-and-research-products)
 * [Construct a Descriptive Title for Your Data Product](#construct-a-descriptive-title-for-your-data-product)
+* [Create a Descriptive Abstract for your Data Product](#create-a-descriptive-abstract-for-your-data-product)
 * [Select Keywords for your Data Product](#select-keywords-for-your-data-product)
 * [Use Common Quality Control/Data Levels](#use-common-quality-controldata-levels)
 * [Use Consistent Missing Data Labels](#use-consistent-missing-data-labels-nodata-values)
@@ -110,6 +111,27 @@ One of the most important metadata elements for your data product is the title. 
 * If your data product is specifically tied to a journal publication (i.e., it contains the exact data used in that publication), consider titling your data product similar to "Supporting data for X" where "X" is the title of the related publication. If you anticipate that your data product will be used by multiple journal publications, a more generic title would be better.
 
 >Example: Supporting data and tools for "Impact of data temporal resolution on quantifying residential end uses of water"
+
+## Create a Descriptive Abstract for your Data Product
+
+The Abstract for your data product is important as it's likely the first (and perhaps last) piece of information a prospective user of your data will read before making a determination of whether they want to spend any more time evaluating or accessing your dataset. In general, you should approach writing the abstract for your data product in the same way you would approach writing the abstract for a journal or conference paper. In general, your Abstract should be a single paragraph, and may include the following elements:
+
+* Brief background information, if needed
+* Brief description of what the resource contains - what data are in the resource?
+* Brief description of the purpose of the data - why was it produced/collected?
+* Brief description of your research design and methods - how was the data produced/collected?
+* Brief description of location - NOTE: Detailed descriptions of data collection sites and locations should be included in a readme file and/or in a data file or shapefile in your content files.
+* Brief description of the variables observed - NOTE: Also consider adding these as keywords.
+* Brief information about what the data show - e.g., what results have been derived from the data?
+* Brief statement of how the data might be useful or how it might be used
+
+Avoid the following when creating your Abstract:
+
+* Overloading the Abstract with metadata that belongs elsewhere. For example:
+  * Do not put citations for related resources in the Abstract, use the Related Resources metadata instead
+  * Put funding agency information in the Credits/Funding Agency metadata rather than in your abstract
+* Going too in depth into the description or structure of your resource - use a readme file for that instead
+* Using complex formatting - this is usually lost when being transferred among different systems* 
 
 ## Select Keywords for your Data Product
 
