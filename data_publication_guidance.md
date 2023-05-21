@@ -1,6 +1,6 @@
 # Best Practices for Sharing and Publishing CZNet Data
 
-The CZ Hub Team has developed a Data Submission Portal (https://dsp.criticalzone.org) to meet the needs of the CZ Collaborative Network (CZNet). The Data Submission Portal provides guidance regarding which data repositories into which products should be deposited and also provides functionality that allows submission of data to the appropriate repository through the Portal. We recommend that all data and research products be submitted to the appropriate repository through the Portal. We provide the following additional guidance for submitting data for sharing and publication.
+The CZ Hub Team has developed a Data Submission Portal (https://contribute.criticalzone.org) to meet the needs of the CZ Collaborative Network (CZNet). The Data Submission Portal provides guidance regarding which data repositories into which products should be deposited and also provides functionality that allows submission of data to the appropriate repository through the Portal. We recommend that all data and research products be submitted to the appropriate repository through the Portal, where possible. We provide the following additional guidance for submitting data for sharing and publication.
 
 ## Content of this General Best Practice Document
 
@@ -33,7 +33,7 @@ For specific questions about CZNet data management, please contact us at [help@c
 
 Our initial focus in developing the CZ Hub Data Submission Portal and for this data publication guidance is on the repositories listed below. We anticipate adding support for additional repositories via the Data Submission Portal as resources allow us to add them. If the supported repositories listed below will not meet your needs, choose a trusted repository that follows international best practices by offering:
 
-1. A public landing page for your dataset/product.
+1. A public landing page for your dataset/research product.
 2. A unique identifier, which may be a digital object identifier (DOI), and a **persistent URL (the URL does not change)** for accessing the landing page for your dataset/product.
 3. A formal citation for your dataset/product.
 
@@ -47,7 +47,7 @@ We provide the general guidance with regard to supported repositories below, but
 4. [SESAR](https://www.geosamples.org): A sample registry that catalogs sample metadata, sample images, and other information to make samples more discoverable, accessible, and reusable. SESAR allows you to get an IGSN for your samples, a globally unique identifier that is essential for unambiguously citing samples in datasets and publications ([https://www.igsn.org](https://www.igsn.org)). Use SESAR to submit metadata about your samples and obtain IGSN Global Sample Numbers. Resources for researchers can be accessed at [https://www.geosamples.org/resources/researchers](https://www.geosamples.org/resources/researchers), and tutorials and FAQs can be accessed at [https://www.geosamples.org/resources/help](https://www.geosamples.org/resources/help).
 5. [OpenTopography](https://opentopography.org): A repository that facilitates community access to high-resolution, Earth science-oriented, topography data and related tools and resources. Submit high resolution topography data acquired with lidar and other technologies. A tutorial describing how to submit data to OpenTopography can be accessed at: [https://cloud.sdsc.edu/v1/AUTH_opentopography/www/docs/CommunityDataspaceTutorial.pdf](https://cloud.sdsc.edu/v1/AUTH_opentopography/www/docs/CommunityDataspaceTutorial.pdf).
 
-If you choose to submit your data or research products to a repository other than the ones listed above, we will still need to know about those submissions. Please register these datasets with the CZ Net Data Submission Portal.
+If you choose to submit your data or research products to a repository other than the ones listed above, we will still need to know about those submissions. Please register these datasets with the CZNet Data Submission Portal.
 
 Please see our specific guidance for CZNet data and research products below for information on what to do if you submit to a different repository.
 
@@ -60,21 +60,21 @@ We offer the following general guidelines for submitting your data and other res
 3. **Create a descriptive title for your data product**: Put some thought into the title of your dataset. See the guidance in the section below about how to construct a descriptive title for your dataset.
 4. **Tag your data with appropriate metadata**: Use the repository’s submission form and templates to enter descriptive metadata for your products. Metadata should include information needed to discover and cite your products, but also additional information required to interpret your content (e.g., procedures used to collect or analyze samples or observations).
 5. **Use common, open, and accepted data formats**: We know that the data you are creating are diverse and that there is not always specific guidance for how to organize your data and which file formats to use. We have provided some links to general data management resources in the section at the end of this document. If you have questions about what to do, please contact us.
-6. **Include a “readme” file**: A readme file can include detailed information about the structure or content of your data or research product. It can also be used to describe how to perform specific analyses to make your research results more reproducible. If you upload a “readme.txt” or “readme.md” file to your resource in HydroShare, it will be displayed on the landing page for your resource.
+6. **Include a “readme” file**: A readme file can include detailed information about the structure or content of your data or research product. It can also be used to describe how to perform specific analyses to make your research results more reproducible. If you upload a "readme.txt" or "readme.md" file to your resource in HydroShare, it will be displayed on the landing page for your resource. Using "readme.md" allows you to use markdown formatting in your readme file that will be rendered on the landing page for the resource.
 
 We have included links to additional documentation that may assist you in preparing your datasets and research products for sharing and publication. We are always happy to discuss specific questions you may have.
 
 ## Specific Guidance for CZNet Data and Research Products
 
-The CZ Hub Team will be working to provide a coordinated view of all CZNet data/research products submitted to reputable data repositories via cataloging and data discovery functionality. We will be using some specific information to find and catalog resources submitted to the different repositories (see below). If the information we request below is missing, we may not be able to find your submitted resource and include it in the CZNet metadata index and discovery tools.
+The CZ Hub Team is providing a coordinated view of all CZNet data/research products submitted to reputable data repositories via the CZnet Cataloging and Discovery system [https://discover.criticalzone.org](https://discover.criticalzone.org). We are using specific information from the metadata of the resources you submit to find and catalog resources submitted to the different repositories (see below). If the information we request below is missing, we may not be able to find your submitted resource and include it in the CZNet metadata index and discovery tools - or, your resource may not respond to the different search and filtering tools we have provided.
 
-**NOTE**: When complete, the CZNet Data Submission Portal will guide you to provide the following information to be entered for all datasets and products submitted through the Portal. However, we know that some may choose to submit directly to a repository without using the Data Submission Portal, so it is important to specify this information regardless of how or when you submit your data.
+**NOTE**: The CZNet Data Submission Portal guides you to provide the following information to be entered for all datasets and products submitted through the Portal. However, we know that some may choose to submit directly to a repository without using the Data Submission Portal, so it is important to specify this information regardless of how or when you submit your data.
 
 To accomplish this, we ask that you do the following, regardless of which repository you deposit your data in:
 
 1. Tag your dataset/product with the subject keyword “CZNet”.
 2. Tag your dataset/product with a subject keyword that is unique to your Thematic Cluster project. Use this keyword consistently for all products you share.
-3. Ensure that you enter funding information, including funding agency (National Science Foundation), award number, and, if possible given the metadata elements available, award title.
+3. Ensure that you enter funding information, including funding agency (National Science Foundation), award number, and, if possible given the metadata elements available, award title. Please use at least one of the NSF award numbers for your Thematic Cluster project.
 4. Make sure that your dataset is publicly available. HydroShare, EarthChem, and Zenodo enable private content. We may not be able to discover and catalog your datasets/products until you have made them publicly available.
 
 ### Guidance for HydroShare, EarthChem, and Zenodo
