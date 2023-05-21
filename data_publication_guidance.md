@@ -11,6 +11,7 @@ The CZ Hub Team has developed a Data Submission Portal (https://contribute.criti
 * [Construct a Descriptive Title for Your Data Product](#construct-a-descriptive-title-for-your-data-product)
 * [Create a Descriptive Abstract for your Data Product](#create-a-descriptive-abstract-for-your-data-product)
 * [Select Keywords for your Data Product](#select-keywords-for-your-data-product)
+* [Provide Author Information](#provide_author_information)
 * [Use Common Quality Control/Data Levels](#use-common-quality-controldata-levels)
 * [Use Consistent Missing Data Labels](#use-consistent-missing-data-labels-nodata-values)
 * [Linking Datasets with Publications](#linking-datasets-with-publications)
@@ -153,6 +154,20 @@ Keywords are important metadata that help categorize and describe your data prod
 * You may consider using keywords that have been used by other, similar data products to ensure that they can be discovered together. You can even test this by searching HydroShare, EarthChem, or other repositories using specific keywords to see what is returned before you select your final set of keywords.
 
 Remember - the keywords you use to describe your data product will be part of the metadata that is cataloged and used to enable discovery of your data product. Choose keywords that you think will help people find your data product. Leave all of the other descriptive metadata for the other descriptive metadata elements (e.g., Title, Abstract, etc.).
+
+## Provide Author Information
+
+Given that data are considered primary products of research that are citable for scholarly credit, it is important that you provide full author information for the data/research products that you deposit into a data repository. Author information ends up in the citation for resources and is also included in the CZNet data discovery capabilities, so it is also important that Author information is specified consistently across all submitted resources with which an Author is affilated. For resources submitted through or registered with the Data Submission Portal, we suggest the following format for Author names:
+
+> Family, Given
+
+For example:
+
+> Horsburgh, Jeffery S.
+
+The researchers you work with may have standardized on a particular way of expressing their name so that all scholarly products are correctly attributed to them. We encourage anyone who is submitting resources on behalf of another party (e.g., Cluster Data Managers) to check with investigators to ensure that Author names are expressed correctly prior to permanently publishing resources. Once a resource is published and a DOI is issued, author information generally cannot be changed.
+
+It is best practice to also provide affiliation information for each author. Affiliations should be specified as the affiliation under which the resource was created. We recommend that Data Managers work with authors to ensure that affiliation information is entered correctly and consistently (e.g., use the same Organization Name, Address, etc. for each resource with which an Author is affiliated to avoid ambiguity).
 
 ## Use Common Quality Control/Data Levels
 
