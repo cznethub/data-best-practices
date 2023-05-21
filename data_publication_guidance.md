@@ -12,6 +12,7 @@ The CZ Hub Team has developed a Data Submission Portal (https://contribute.criti
 * [Create a Descriptive Abstract for your Data Product](#create-a-descriptive-abstract-for-your-data-product)
 * [Select Keywords for your Data Product](#select-keywords-for-your-data-product)
 * [Provide Author Information](#provide-author-information)
+* [Provide Funding Agency Information](#provide-funding-agency-information)
 * [Use Common Quality Control/Data Levels](#use-common-quality-controldata-levels)
 * [Use Consistent Missing Data Labels](#use-consistent-missing-data-labels-nodata-values)
 * [Linking Datasets with Publications](#linking-datasets-with-publications)
@@ -75,7 +76,7 @@ To accomplish this, we ask that you do the following, regardless of which reposi
 
 1. Tag your dataset/product with the subject keyword “CZNet”.
 2. Tag your dataset/product with a subject keyword that is unique to your Thematic Cluster project. Use this keyword consistently for all products you share.
-3. Ensure that you enter funding information, including funding agency (National Science Foundation), award number, and, if possible given the metadata elements available, award title. Please use at least one of the NSF award numbers for your Thematic Cluster project.
+3. Ensure that you enter funding information, including funding agency (National Science Foundation), award number, and, if possible given the metadata elements available, award title. See the additional recommendations below for funding agency information.
 4. Make sure that your dataset is publicly available. HydroShare, EarthChem, and Zenodo enable private content. We may not be able to discover and catalog your datasets/products until you have made them publicly available.
 
 ### Guidance for HydroShare, EarthChem, and Zenodo
@@ -168,6 +169,21 @@ For example:
 The researchers you work with may have standardized on a particular way of expressing their name so that all scholarly products are correctly attributed to them. We encourage anyone who is submitting resources on behalf of another party (e.g., Cluster Data Managers) to check with investigators to ensure that Author names are expressed correctly prior to permanently publishing resources. Once a resource is published and a DOI is issued, author information generally cannot be changed.
 
 It is best practice to also provide affiliation information for each author. Affiliations should be specified as the affiliation under which the resource was created. We recommend that Data Managers work with authors to ensure that affiliation information is entered correctly and consistently (e.g., use the same Organization Name, Address, etc. for each resource with which an Author is affiliated to avoid ambiguity).
+
+## Provide Funding Agency Information
+
+It is best practice to provide an acknowledgment to the agency or funding source that provided the support under which data/research products were produced. For CZNet Thematic Cluster projects, this is the NSF award that funded the Cluster project. Several of the Thematic Cluster projects have collaborative awards, which means that there are multiple NSF award numbers.
+
+We recommend that you provide full funding agency information for each data/research product that is submitted to a repository. For each product, you should provide the following information:
+
+* Agency Name - e.g., "National Science Foundation"
+* Award Title - e.g., "Collaborative Research: Network Hub: Enabling, Supporting, and Communicating Critical Zone Research"
+* Award Numver - e.g., "2012748"
+* Funding Agency URL - e.g., "[https://www.nsf.gov/awardsearch/showAward?AWD_ID=2012748](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2012748)"
+
+For those Thematic Cluster projects that have more than one NSF award, where appropriate we recommend adding multiple funding agency metadata elemements for each award. We also recommend this for products that may have been co-funded by multiple projects and/or agencies. You should include a funding agency element for each one.
+
+The CZNet Catalog and Discovery system uses the NSF award numbers to match your data products to your Thematic Cluster project. Thus, if you want your data products to respond to the CZ Project filter in the Catalog and Discovery system, you must include at least one of your Thematic Cluster project's NSF award numbers in the funding agency metadata.
 
 ## Use Common Quality Control/Data Levels
 
