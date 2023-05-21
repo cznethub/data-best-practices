@@ -11,7 +11,7 @@ The CZ Hub Team has developed a Data Submission Portal (https://contribute.criti
 * [Construct a Descriptive Title for Your Data Product](#construct-a-descriptive-title-for-your-data-product)
 * [Create a Descriptive Abstract for your Data Product](#create-a-descriptive-abstract-for-your-data-product)
 * [Select Keywords for your Data Product](#select-keywords-for-your-data-product)
-* [Provide Author Information](#provide_author_information)
+* [Provide Author Information](#provide-author-information)
 * [Use Common Quality Control/Data Levels](#use-common-quality-controldata-levels)
 * [Use Consistent Missing Data Labels](#use-consistent-missing-data-labels-nodata-values)
 * [Linking Datasets with Publications](#linking-datasets-with-publications)
