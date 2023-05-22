@@ -12,6 +12,7 @@ The CZ Hub Team has developed a Data Submission Portal (https://contribute.criti
 * [Create a Descriptive Abstract for your Data Product](#create-a-descriptive-abstract-for-your-data-product)
 * [Select Keywords for your Data Product](#select-keywords-for-your-data-product)
 * [Provide Author Information](#provide-author-information)
+* [Provide Spatial and Temporal Coverage Information](#provide-spatial-and-temporal-coverage-information)
 * [Provide Funding Agency Information](#provide-funding-agency-information)
 * [Use Common Quality Control/Data Levels](#use-common-quality-controldata-levels)
 * [Use Consistent Missing Data Labels](#use-consistent-missing-data-labels-nodata-values)
@@ -169,6 +170,17 @@ For example:
 The researchers you work with may have standardized on a particular way of expressing their name so that all scholarly products are correctly attributed to them. We encourage anyone who is submitting resources on behalf of another party (e.g., Cluster Data Managers) to check with investigators to ensure that Author names are expressed correctly prior to permanently publishing resources. Once a resource is published and a DOI is issued, author information generally cannot be changed.
 
 It is best practice to also provide affiliation information for each author. Affiliations should be specified as the affiliation under which the resource was created. We recommend that Data Managers work with authors to ensure that affiliation information is entered correctly and consistently (e.g., use the same Organization Name, Address, etc. for each resource with which an Author is affiliated to avoid ambiguity).
+
+## Provide Spatial and Temporal Coverage Information
+
+Spatial and temporal coverage information is important for people who may be searching for data collected within or near a particular place or region and/or that were collected within or are representative of a specific time period. The purpose of coverage information is not to visualize the spatial or temporal qualities or complexity of your data. Instead, it is meant to provide viewers with information about where the spatial and/or temporal region to which the data are applicable. The following are recommendations for specifying spatial and temporal coverage for the different repositories supported by CZNet:
+
+* **HydroShare**: HydroShare represents spatial coverage information as a bounding box or a discrete point in space. You can choose which to use, and you can input the coordinates for the bounding box or point manually or by using the map control to draw the point or box on the map. HydroShare allows you to enter the temporal coverage as a time period by choosing a starting and ending date. 
+* **EarthChem**: The EarthChem repository allows you to specify the spatial coverage as "Global", "Regional (Continents, Oceans)", or "Space/Planetary" along with adding geographic keywords. EarthChem then draws coverage information from the coordinates associated with the dataset's individual samples. Samples must be registered with SESAR and receive IGSNs for this association to work correctly. 
+* **Zenodo**: The Zenodo repository does not include spatial or temporal coverage information as part of its metadata. If you want to share a resource in Zenodo and you want to specify spatial or temporal coverage information, you could add this information to the "Additional notes" metadata field in Zenodo.
+* **Other Repositories**: If you are using the Data Submission Portal to register a dataset from a different repository, specifying the spatial and temporal coverage is the same as for the HydroShare repository.
+
+**NOTE**: The CZNet Cataloging and Discovery system includes a filter for data temporal coverage. Given that specifying the temporal coverage of your dataset is optional, only datasets that have information for temporal coverage will respond to this filter. The CZ Hub team is also working spatial filtering capability, which, similar to temporal coverage, will only work for those datasets for which spatial coverage information is specified.
 
 ## Provide Funding Agency Information
 
