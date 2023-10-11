@@ -2,8 +2,6 @@ name: build
 on:
   push:
     branches: [ develop, mkdocs-based-site ]
-  pull_request_target:
-      branches: [ develop ]
 
 jobs:
   deploy:
