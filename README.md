@@ -3,7 +3,7 @@ This repository contains best practices developed by the Critical Zone Collabora
 
 For overall data sharing and publication guidance, please read the following first:
 
-[Guidance for all CZ Net Data Publication](data_publication_guidance.md)
+[Guidance for all CZ Net Data Publication](docs/data_publication_guidance.md)
 
 For guidance on specific data types, please consultt the following best practice guides:
 

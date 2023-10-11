@@ -13,6 +13,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Data Publication Guidance: data_publication_guidance.md
   - Best Practices:
       Sharing Geospatial Data: geospatial_data/geospatial_data.md
       Sharing Multiple Data Types Together: multiple_data_types/multiple_data_types.md

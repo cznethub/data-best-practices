@@ -1,4 +1,3 @@
-## TODO: Delete this file as the content of this file is now in index.md
 # Best Practices for Sharing and Publishing CZNet Data
 
 The CZ Hub Team has developed a Data Submission Portal (https://contribute.criticalzone.org) to meet the needs of the CZ Collaborative Network (CZNet). The Data Submission Portal provides guidance regarding which data repositories into which products should be deposited and also provides functionality that allows submission of data to the appropriate repository through the Portal. We recommend that all data and research products be submitted to the appropriate repository through the Portal, where possible. We provide the following additional guidance for submitting data for sharing and publication.
