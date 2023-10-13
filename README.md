@@ -4,7 +4,7 @@ This repository contains best practices developed by the Critical Zone Collabora
 
 ## Accessing Data Best Practice Content
 
-All of the content for the best practice documents is the the "docs" folder of this repository. You can view the individual markdown documents in that folder.
+All of the content for the best practice documents is in the "docs" folder of this repository. You can view the individual markdown documents in that folder.
 
 To view the data best practices in HTML format, please visit:
 
