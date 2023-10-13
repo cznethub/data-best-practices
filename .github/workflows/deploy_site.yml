@@ -1,7 +1,7 @@
 name: build
 on:
   push:
-    branches: [ develop, mkdocs-based-site ]
+    branches: [ develop ]
 
 jobs:
   deploy:
