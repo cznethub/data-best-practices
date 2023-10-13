@@ -1,17 +1,34 @@
 # Critical Zone Collaborative Network Data Best Practices
-This repository contains best practices developed by the Critical Zone Collaborative Network (CZ Net) for sharing data related to the Critical Zone.
 
-For overall data sharing and publication guidance, please read the following first:
+This repository contains best practices developed by the Critical Zone Collaborative Network (CZ Net) for collecting, formatting, and sharing data related to the Critical Zone.  
 
-[Guidance for all CZ Net Data Publication](docs/data_publication_guidance.md)
+## Accessing Data Best Practice Content
 
-For guidance on specific data types, please consultt the following best practice guides:
+All of the content for the best practice documents is the the "docs" folder of this repository. You can view the individual markdown documents in that folder.
 
-1. [Sharing Samples and Sample Metadata](docs/sample_data/registering_samples.md)
-2. [Sharing Laboratory Analytical Data](docs/sample_data/sample_data.md)
-3. [Sharing Geospatial Data](docs/geospatial_data/geospatial_data.md)
-4. [Sharing Environmental Time Series Data](docs/time_series_data/time_series_data.md)
-5. [Sharing Multiple Data Types Together](docs/multiple_data_types/multiple_data_types.md)
+To view the data best practices in HTML format, please visit:
+
+[https://cznethub.github.io/data-best-practices/](https://cznethub.github.io/data-best-practices/)
+
+## Contributing Content
+
+If you would like to contribute to the development of these best practice documents, you can clone this repository and submit a pull request. Or, you can contact us directly and send content via a file, Google Doc, or whatever is convenient for you.
+
+### Contacts
+
+**Jeff Horsburgh**\
+Utah Water Research Laboratory\
+Utah State University\
+[jeff.horsburgh@usu.edu](mailto:jeff.horsburgh@usu.edu)
+
+**Kerstin Lehnert**\
+Lamont Doherty Earth Observatory\
+Columbia University\
+[lehnert@ldeo.columbia.edu](mailto:lehnert@ldeo.columbia.edu)
+
+**Clara Cogswell**\
+CUAHSI\
+[ccogswell@cuahsi.org](mailto:ccogswell@cuahsi.org)
 
 ## License
 
