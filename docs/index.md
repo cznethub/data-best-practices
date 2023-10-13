@@ -13,6 +13,26 @@ For guidance on specific data types, please consultt the following best practice
 4. [Sharing Environmental Time Series Data](docs/time_series_data/time_series_data.md)
 5. [Sharing Multiple Data Types Together](docs/multiple_data_types/multiple_data_types.md)
 
+## Contributing Content
+
+If you would like to contribute to the development of these best practice documents, you can clone the [GitHub repository on which this content is based](https://github.com/cznethub/data-best-practices) and submit a pull request. Or, you can contact us directly and send content via a file, Google Doc, or whatever is convenient for you.
+
+### Contacts
+
+**Jeff Horsburgh**\
+Utah Water Research Laboratory\
+Utah State University\
+[jeff.horsburgh@usu.edu](mailto:jeff.horsburgh@usu.edu)
+
+**Kerstin Lehnert**\
+Lamont Doherty Earth Observatory\
+Columbia University\
+[lehnert@ldeo.columbia.edu](mailto:lehnert@ldeo.columbia.edu)
+
+**Clara Cogswell**\
+CUAHSI\
+[ccogswell@cuahsi.org](mailto:ccogswell@cuahsi.org)
+
 ## License
 
 The content in this repository is released under the [Creative Commons Attribution 4.0 International (CC BY 4.0)][cc-by] license. 
