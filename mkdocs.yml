@@ -3,7 +3,25 @@ repo_name: cznethub/data-best-practices
 repo_url: https://github.com/cznethub/data-best-practices
 edit_uri: blob/develop/docs/
 
-theme: readthedocs
+theme:
+  name: "material"
+  features:
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - navigation.footer
+  icon:
+    edit: material/pencil
+    view: material/eye
+  palette:
+    - scheme: default
+      toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+    - scheme: slate
+      toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
 
 plugins:
   - search
