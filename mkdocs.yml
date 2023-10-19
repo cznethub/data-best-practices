@@ -1,0 +1,40 @@
+site_name: CZ Net Data Best Practices
+repo_name: cznethub/data-best-practices
+repo_url: https://github.com/cznethub/data-best-practices
+edit_uri: blob/develop/docs/
+
+theme:
+  name: "material"
+  features:
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+    - navigation.footer
+  icon:
+    edit: material/pencil
+    view: material/eye
+  palette:
+    - scheme: default
+      toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
+    - scheme: slate
+      toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+
+nav:
+  - Home: index.md
+  - Data Publication Guidance: data_publication_guidance.md
+  - Best Practices:
+      Sharing Geospatial Data: geospatial_data/geospatial_data.md
+      Sharing Multiple Data Types Together: multiple_data_types/multiple_data_types.md
+      Sharing Samples and Sample Metadata: sample_data/registering_samples.md
+      Sharing Laboratory Analytical Data: sample_data/sample_data.md
+      Sharing Environmental Time Series Data: time_series_data/time_series_data.md

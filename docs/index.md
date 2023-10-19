@@ -1,18 +1,21 @@
 # Critical Zone Collaborative Network Data Best Practices
+This repository contains best practices developed by the Critical Zone Collaborative Network (CZ Net) for sharing data related to the Critical Zone.
 
-This repository contains best practices developed by the Critical Zone Collaborative Network (CZ Net) for collecting, formatting, and sharing data related to the Critical Zone.  
+For overall data sharing and publication guidance, please read the following first:
 
-## Accessing Data Best Practice Content
+[Guidance for all CZ Net Data Publication](data_publication_guidance.md)
 
-All of the content for the best practice documents is in the "docs" folder of this repository. You can view the individual markdown documents in that folder.
+For guidance on specific data types, please consultt the following best practice guides:
 
-To view the data best practices in HTML format, please visit:
-
-[https://cznethub.github.io/data-best-practices/](https://cznethub.github.io/data-best-practices/)
+1. [Sharing Samples and Sample Metadata](sample_data/registering_samples.md)
+2. [Sharing Laboratory Analytical Data](sample_data/sample_data.md)
+3. [Sharing Geospatial Data](geospatial_data/geospatial_data.md)
+4. [Sharing Environmental Time Series Data](time_series_data/time_series_data.md)
+5. [Sharing Multiple Data Types Together](multiple_data_types/multiple_data_types.md)
 
 ## Contributing Content
 
-If you would like to contribute to the development of these best practice documents, you can clone this repository and submit a pull request. Or, you can contact us directly and send content via a file, Google Doc, or whatever is convenient for you.
+If you would like to contribute to the development of these best practice documents, you can clone the [GitHub repository on which this content is based](https://github.com/cznethub/data-best-practices) and submit a pull request. Or, you can contact us directly and send content via a file, Google Doc, or whatever is convenient for you.
 
 ### Contacts
 
