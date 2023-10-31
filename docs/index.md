@@ -19,18 +19,18 @@ If you would like to contribute to the development of these best practice docume
 
 ### Contacts
 
-**Jeff Horsburgh**\
-Utah Water Research Laboratory\
-Utah State University\
+**Jeff Horsburgh**<br>
+Utah Water Research Laboratory<br>
+Utah State University<br>
 [jeff.horsburgh@usu.edu](mailto:jeff.horsburgh@usu.edu)
 
-**Kerstin Lehnert**\
-Lamont Doherty Earth Observatory\
-Columbia University\
+**Kerstin Lehnert**<br>
+Lamont Doherty Earth Observatory<br>
+Columbia University<br>
 [lehnert@ldeo.columbia.edu](mailto:lehnert@ldeo.columbia.edu)
 
-**Clara Cogswell**\
-CUAHSI\
+**Clara Cogswell**<br>
+CUAHSI<br>
 [ccogswell@cuahsi.org](mailto:ccogswell@cuahsi.org)
 
 ## License
