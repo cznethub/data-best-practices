@@ -1,0 +1,1201 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../contribute/">
+      
+      
+        <link rel="next" href="../geospatial_data/geospatial_data/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+    
+    
+      
+        <title>Data Publication Guidance - CZ Net Data Best Practices</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4b4a2bd9.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#best-practices-for-sharing-and-publishing-cznet-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CZ Net Data Best Practices" class="md-header__button md-logo" aria-label="CZ Net Data Best Practices" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CZ Net Data Best Practices
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Data Publication Guidance
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/cznethub/data-best-practices" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cznethub/data-best-practices
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CZ Net Data Best Practices" class="md-nav__button md-logo" aria-label="CZ Net Data Best Practices" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    CZ Net Data Best Practices
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/cznethub/data-best-practices" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    cznethub/data-best-practices
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contribute/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Data Publication Guidance
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Data Publication Guidance
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#content-of-this-general-best-practice-document" class="md-nav__link">
+    Content of this General Best Practice Document
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-contact-us" class="md-nav__link">
+    How to Contact Us
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Contact Us">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#join-us-in-the-cznet-slack-workspace" class="md-nav__link">
+    Join Us in the CZNet Slack Workspace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contact-us-directly-via-email" class="md-nav__link">
+    Contact Us Directly via Email
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-repository-should-i-use" class="md-nav__link">
+    Which Repository Should I Use?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted" class="md-nav__link">
+    General Guidance for all CZNet Data and Research Products to be Submitted
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specific-guidance-for-cznet-data-and-research-products" class="md-nav__link">
+    Specific Guidance for CZNet Data and Research Products
+  </a>
+  
+    <nav class="md-nav" aria-label="Specific Guidance for CZNet Data and Research Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#guidance-for-hydroshare-earthchem-and-zenodo" class="md-nav__link">
+    Guidance for HydroShare, EarthChem, and Zenodo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidance-for-dataproducts-submitted-to-other-repositories" class="md-nav__link">
+    Guidance for Data/Products Submitted to Other Repositories
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#construct-a-descriptive-title-for-your-data-product" class="md-nav__link">
+    Construct a Descriptive Title for Your Data Product
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-descriptive-abstract-for-your-data-product" class="md-nav__link">
+    Create a Descriptive Abstract for your Data Product
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#select-keywords-for-your-data-product" class="md-nav__link">
+    Select Keywords for your Data Product
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provide-author-information" class="md-nav__link">
+    Provide Author Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provide-spatial-and-temporal-coverage-information" class="md-nav__link">
+    Provide Spatial and Temporal Coverage Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provide-funding-agency-information" class="md-nav__link">
+    Provide Funding Agency Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-common-quality-controldata-levels" class="md-nav__link">
+    Use Common Quality Control/Data Levels
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-consistent-missing-data-labels-nodata-values" class="md-nav__link">
+    Use Consistent Missing Data Labels (NoData Values)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linking-datasets-with-publications" class="md-nav__link">
+    Linking Datasets with Publications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potentally-useful-data-management-resources" class="md-nav__link">
+    Potentally Useful Data Management Resources
+  </a>
+  
+    <nav class="md-nav" aria-label="Potentally Useful Data Management Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#guidelines-for-structuring-and-formatting-data" class="md-nav__link">
+    Guidelines for Structuring and Formatting Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidelines-for-citing-data" class="md-nav__link">
+    Guidelines for Citing Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidelines-for-selecting-a-data-repository" class="md-nav__link">
+    Guidelines for Selecting a Data Repository
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Best Practices
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Best Practices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geospatial_data/geospatial_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sharing Geospatial Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../multiple_data_types/multiple_data_types/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sharing Multiple Data Types Together
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sample_data/registering_samples/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sharing Samples and Sample Metadata
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sample_data/sample_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sharing Laboratory Analytical Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../time_series_data/time_series_data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sharing Environmental Time Series Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#content-of-this-general-best-practice-document" class="md-nav__link">
+    Content of this General Best Practice Document
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-contact-us" class="md-nav__link">
+    How to Contact Us
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Contact Us">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#join-us-in-the-cznet-slack-workspace" class="md-nav__link">
+    Join Us in the CZNet Slack Workspace
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contact-us-directly-via-email" class="md-nav__link">
+    Contact Us Directly via Email
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#which-repository-should-i-use" class="md-nav__link">
+    Which Repository Should I Use?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted" class="md-nav__link">
+    General Guidance for all CZNet Data and Research Products to be Submitted
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specific-guidance-for-cznet-data-and-research-products" class="md-nav__link">
+    Specific Guidance for CZNet Data and Research Products
+  </a>
+  
+    <nav class="md-nav" aria-label="Specific Guidance for CZNet Data and Research Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#guidance-for-hydroshare-earthchem-and-zenodo" class="md-nav__link">
+    Guidance for HydroShare, EarthChem, and Zenodo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidance-for-dataproducts-submitted-to-other-repositories" class="md-nav__link">
+    Guidance for Data/Products Submitted to Other Repositories
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#construct-a-descriptive-title-for-your-data-product" class="md-nav__link">
+    Construct a Descriptive Title for Your Data Product
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-a-descriptive-abstract-for-your-data-product" class="md-nav__link">
+    Create a Descriptive Abstract for your Data Product
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#select-keywords-for-your-data-product" class="md-nav__link">
+    Select Keywords for your Data Product
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provide-author-information" class="md-nav__link">
+    Provide Author Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provide-spatial-and-temporal-coverage-information" class="md-nav__link">
+    Provide Spatial and Temporal Coverage Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#provide-funding-agency-information" class="md-nav__link">
+    Provide Funding Agency Information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-common-quality-controldata-levels" class="md-nav__link">
+    Use Common Quality Control/Data Levels
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#use-consistent-missing-data-labels-nodata-values" class="md-nav__link">
+    Use Consistent Missing Data Labels (NoData Values)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linking-datasets-with-publications" class="md-nav__link">
+    Linking Datasets with Publications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#potentally-useful-data-management-resources" class="md-nav__link">
+    Potentally Useful Data Management Resources
+  </a>
+  
+    <nav class="md-nav" aria-label="Potentally Useful Data Management Resources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#guidelines-for-structuring-and-formatting-data" class="md-nav__link">
+    Guidelines for Structuring and Formatting Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidelines-for-citing-data" class="md-nav__link">
+    Guidelines for Citing Data
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidelines-for-selecting-a-data-repository" class="md-nav__link">
+    Guidelines for Selecting a Data Repository
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/cznethub/data-best-practices/blob/develop/docs/data_publication_guidance.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+    </a>
+  
+  
+
+
+<h1 id="best-practices-for-sharing-and-publishing-cznet-data">Best Practices for Sharing and Publishing CZNet Data</h1>
+<p>The CZ Hub Team has developed a Data Submission Portal (https://contribute.criticalzone.org) to meet the needs of the CZ Collaborative Network (CZNet). The Data Submission Portal provides guidance regarding which data repositories into which products should be deposited and also provides functionality that allows submission of data to the appropriate repository through the Portal. We recommend that all data and research products be submitted to the appropriate repository through the Portal, where possible. We provide the following additional guidance for submitting data for sharing and publication.</p>
+<h2 id="content-of-this-general-best-practice-document">Content of this General Best Practice Document</h2>
+<ul>
+<li><a href="#how-to-contact-us">How to Contact Us</a></li>
+<li><a href="#which-repository-should-i-use">Which repository should I use?</a></li>
+<li><a href="#general-guidance-for-all-cznet-data-and-research-products-to-be-submitted">General Guidance for all CZNet Data and Research Products to be Submitted</a></li>
+<li><a href="#specific-guidance-for-cznet-data-and-research-products">Specific Guidance for CZNet Data and Research Products</a></li>
+<li><a href="#construct-a-descriptive-title-for-your-data-product">Construct a Descriptive Title for Your Data Product</a></li>
+<li><a href="#create-a-descriptive-abstract-for-your-data-product">Create a Descriptive Abstract for your Data Product</a></li>
+<li><a href="#select-keywords-for-your-data-product">Select Keywords for your Data Product</a></li>
+<li><a href="#provide-author-information">Provide Author Information</a></li>
+<li><a href="#provide-spatial-and-temporal-coverage-information">Provide Spatial and Temporal Coverage Information</a></li>
+<li><a href="#provide-funding-agency-information">Provide Funding Agency Information</a></li>
+<li><a href="#use-common-quality-controldata-levels">Use Common Quality Control/Data Levels</a></li>
+<li><a href="#use-consistent-missing-data-labels-nodata-values">Use Consistent Missing Data Labels</a></li>
+<li><a href="#linking-datasets-with-publications">Linking Datasets with Publications</a></li>
+<li><a href="#potentally-useful-data-management-resources">Potentially Useful Data Management Resources</a></li>
+</ul>
+<h2 id="how-to-contact-us">How to Contact Us</h2>
+<p>If you need help with data management or have questions about the guidance provided here, you can contact us in a number of ways.</p>
+<h3 id="join-us-in-the-cznet-slack-workspace">Join Us in the CZNet Slack Workspace</h3>
+<p>The CZNet Slack workspace was established to foster communication between the thematic clusters and with the CZNet Hub team. If you haven’t joined the CZNet Slack workspace, we encourage you to join us there. There are specific channels set up within the workspace for topical discussions. If you would like to join the CZNet Slack workspace, please email us at <a href="mailto:help@cuahsi.org">help@cuahsi.org</a>.</p>
+<h3 id="contact-us-directly-via-email">Contact Us Directly via Email</h3>
+<p>For specific questions about CZNet data management, please contact us at <a href="mailto:help@cuahsi.org">help@cuahsi.org</a>. Be sure to include “CZNet” in the subject line of the email you send. We will route these emails to the person(s) who we think can best answer your questions.</p>
+<h2 id="which-repository-should-i-use">Which Repository Should I Use?</h2>
+<p>Our initial focus in developing the CZ Hub Data Submission Portal and for this data publication guidance is on the repositories listed below. We anticipate adding support for additional repositories via the Data Submission Portal as resources allow us to add them. If the supported repositories listed below will not meet your needs, choose a trusted repository that follows international best practices by offering:</p>
+<ol>
+<li>A public landing page for your dataset/research product.</li>
+<li>A unique identifier, which may be a digital object identifier (DOI), and a <strong>persistent URL (the URL does not change)</strong> for accessing the landing page for your dataset/product.</li>
+<li>A formal citation for your dataset/product.</li>
+</ol>
+<p>You can find directories of data repositories at <a href="https://www.re3data.org">https://www.re3data.org</a> and <a href="https://fairsharing.org">https://fairsharing.org</a>.</p>
+<p>We provide the general guidance with regard to supported repositories below, but we are happy to discuss any questions you may have and make more specific recommendations:</p>
+<ol>
+<li><a href="http://www.hydroshare.org">HydroShare</a>: A general purpose repository for submitting water-science related datasets and models. Submit datasets, models, and other research products that are water-related. This includes time series of hydrologic observations, time series of data from weather stations, geospatial datasets, etc. HydroShare is flexible and allows upload of files having any format. HydroShare also includes a linked JupyterHub server if you wish to upload executable Jupyter Notebooks using Python or R with your content. For information about how to submit to HydroShare, you can access HydroShare’s help system at <a href="https://help.hydroshare.org">https://help.hydroshare.org</a>.</li>
+<li><a href="http://www.earthchem.org">EarthChem</a>: A repository for submitting data derived from material samples such as soil, sediment, pore water, or rock specimens; cores; and other physical objects. Primary focus is on geochemical, geochronological, petrological, and mineralogical data. EarthChem strongly recommends use of data submission templates available on the EarthChem web site (<a href="https://earthchem.org/ecl/templates/">https://earthchem.org/ecl/templates/</a>) that provide guidance for properly documenting data quality and provenance. Though data can be contributed to the EarthChem Library in a wide range of formats (<a href="https://ecl.earthchem.org/fileformat.php">https://ecl.earthchem.org/fileformat.php</a>), it always needs to be documented with relevant information regarding the analytical data quality. Submission guidelines for EarthChem can be accessed at <a href="https://www.earthchem.org/ecl/submission-guidelines/">https://www.earthchem.org/ecl/submission-guidelines/</a>. For help, go to <a href="https://earthchem.org/resources/support/earthchem-library-documentation/">https://earthchem.org/resources/support/earthchem-library-documentation/</a> or write to <a href="mailto:info@earthchem.org">info@earthchem.org</a>. Regardless of whether you submit directly to the EarthChem Library or you submit to the EarthChem Library through the CZNet Data Submission Portal, you shoud review and use the templates and guidance for your data files linked here.</li>
+<li><a href="http://www.zenodo.org">Zenodo</a>: A catch-all repository that may be an appropriate place to upload content that is not appropriate for the other repositories. Zenodo does not limit what you can upload and is not domain specific. For more information about Zenodo and submitting data, see <a href="https://zenodo.org/record/787445">https://zenodo.org/record/787445</a>.</li>
+<li><a href="https://www.geosamples.org">SESAR</a>: A sample registry that catalogs sample metadata, sample images, and other information to make samples more discoverable, accessible, and reusable. SESAR allows you to get an IGSN for your samples, a globally unique identifier that is essential for unambiguously citing samples in datasets and publications (<a href="https://www.igsn.org">https://www.igsn.org</a>). Use SESAR to submit metadata about your samples and obtain IGSN Global Sample Numbers. Resources for researchers can be accessed at <a href="https://www.geosamples.org/resources/researchers">https://www.geosamples.org/resources/researchers</a>, and tutorials and FAQs can be accessed at <a href="https://www.geosamples.org/resources/help">https://www.geosamples.org/resources/help</a>.</li>
+<li><a href="https://opentopography.org">OpenTopography</a>: A repository that facilitates community access to high-resolution, Earth science-oriented, topography data and related tools and resources. Submit high resolution topography data acquired with lidar and other technologies. A tutorial describing how to submit data to OpenTopography can be accessed at: <a href="https://cloud.sdsc.edu/v1/AUTH_opentopography/www/docs/CommunityDataspaceTutorial.pdf">https://cloud.sdsc.edu/v1/AUTH_opentopography/www/docs/CommunityDataspaceTutorial.pdf</a>.</li>
+</ol>
+<p>If you choose to submit your data or research products to a repository other than the ones listed above, we will still need to know about those submissions. Please register these datasets with the CZNet Data Submission Portal.</p>
+<p>Please see our specific guidance for CZNet data and research products below for information on what to do if you submit to a different repository.</p>
+<h2 id="general-guidance-for-all-cznet-data-and-research-products-to-be-submitted">General Guidance for all CZNet Data and Research Products to be Submitted</h2>
+<p>We offer the following general guidelines for submitting your data and other research products. For a full overview, <a href="https://criticalzone.org/uploads/publications/Data-Products-Guide-CZhub.pdf">click here</a>.</p>
+<ol>
+<li><strong>Use the Best Practices and Templates Described in this Repository</strong>: Please follow the specific best practices, data formats, and templates described in this repository.</li>
+<li><strong>Start assembling your data now</strong>: We recommend that you begin thinking about which products (e.g., data, images, samples, code) you will generate. Assemble and document them as early as possible after generating them (it will save you time later), and register them within one of the above repositories. You need not wait until your data are ready for formal publication. HydroShare, EarthChem, and Zenodo all offer the ability to upload private content, allowing you to capture and store your data safely while your research and publication process is ongoing. Then share and publish when you are ready. Register your samples online in SESAR.</li>
+<li><strong>Create a descriptive title for your data product</strong>: Put some thought into the title of your dataset. See the guidance in the section below about how to construct a descriptive title for your dataset.</li>
+<li><strong>Tag your data with appropriate metadata</strong>: Use the repository’s submission form and templates to enter descriptive metadata for your products. Metadata should include information needed to discover and cite your products, but also additional information required to interpret your content (e.g., procedures used to collect or analyze samples or observations).</li>
+<li><strong>Use common, open, and accepted data formats</strong>: We know that the data you are creating are diverse and that there is not always specific guidance for how to organize your data and which file formats to use. We have provided some links to general data management resources in the section at the end of this document. If you have questions about what to do, please contact us.</li>
+<li><strong>Include a “readme” file</strong>: A readme file can include detailed information about the structure or content of your data or research product. It can also be used to describe how to perform specific analyses to make your research results more reproducible. If you upload a "readme.txt" or "readme.md" file to your resource in HydroShare, it will be displayed on the landing page for your resource. Using "readme.md" allows you to use markdown formatting in your readme file that will be rendered on the landing page for the resource.</li>
+</ol>
+<p>We have included links to additional documentation that may assist you in preparing your datasets and research products for sharing and publication. We are always happy to discuss specific questions you may have.</p>
+<h2 id="specific-guidance-for-cznet-data-and-research-products">Specific Guidance for CZNet Data and Research Products</h2>
+<p>The CZ Hub Team is providing a coordinated view of all CZNet data/research products submitted to reputable data repositories via the CZnet Cataloging and Discovery system <a href="https://discover.criticalzone.org">https://discover.criticalzone.org</a>. We are using specific information from the metadata of the resources you submit to find and catalog resources submitted to the different repositories (see below). If the information we request below is missing, we may not be able to find your submitted resource and include it in the CZNet metadata index and discovery tools - or, your resource may not respond to the different search and filtering tools we have provided.</p>
+<p><strong>NOTE</strong>: The CZNet Data Submission Portal guides you to provide the following information to be entered for all datasets and products submitted through the Portal. However, we know that some may choose to submit directly to a repository without using the Data Submission Portal, so it is important to specify this information regardless of how or when you submit your data.</p>
+<p>To accomplish this, we ask that you do the following, regardless of which repository you deposit your data in:</p>
+<ol>
+<li>Tag your dataset/product with the subject keyword “CZNet”.</li>
+<li>Tag your dataset/product with a subject keyword that is unique to your Thematic Cluster project. Use this keyword consistently for all products you share.</li>
+<li>Ensure that you enter funding information, including funding agency (National Science Foundation), award number, and, if possible given the metadata elements available, award title. See the additional recommendations below for funding agency information.</li>
+<li>Make sure that your dataset is publicly available. HydroShare, EarthChem, and Zenodo enable private content. We may not be able to discover and catalog your datasets/products until you have made them publicly available.</li>
+</ol>
+<h3 id="guidance-for-hydroshare-earthchem-and-zenodo">Guidance for HydroShare, EarthChem, and Zenodo</h3>
+<p>We will be using “community” and “group” functionality within the different repositories to help group and present data from the cluster projects. When you submit to HydroShare, EarthChem, or Zenodo, we ask that you associate your dataset/product with an appropriate Group or Community, depending on which repository you submit to:</p>
+<ul>
+<li><strong>HydroShare</strong> - share your dataset/product with your Cluster’s HydroShare Group. We have created a HydroShare “Group” for each thematic cluster project. You can share your HydroShare resource with your Group by clicking on the “Manage Access” button on the resource’s landing page and giving view or edit access to your cluster’s group. This can be done at any time after you create your resource in HydroShare.</li>
+<li><strong>EarthChem</strong> - associate your dataset/product with the “Critical Zone” community within EarthChem. See <a href="https://earthchem.org/communities/cznet/">https://earthchem.org/communities/cznet/</a></li>
+<li><strong>Zenodo</strong> - associate your dataset/product with the “Critical Zone Data and Research Products” community (<a href="https://www.zenodo.org/communities/czdata/">https://www.zenodo.org/communities/czdata/</a>). When you create a new upload, search for “czdata” or “Critical Zone Data and Research Products” to find the correct community.</li>
+</ul>
+<h3 id="guidance-for-dataproducts-submitted-to-other-repositories">Guidance for Data/Products Submitted to Other Repositories</h3>
+<p>We know that our list of supported repositories may not meet the needs of all of the CZNet cluster projects for all of the different types of data products. If you choose to submit your data/product(s) to a repository other than the ones in our list of supported repositories, we will be unable to discover and catalog those products unless you tell us about them. Please make sure that you register these data products with the CZNet Data Submission Portal. </p>
+<h2 id="construct-a-descriptive-title-for-your-data-product">Construct a Descriptive Title for Your Data Product</h2>
+<p>One of the most important metadata elements for your data product is the title. This piece of information is cataloged to enable discovery of your data product, and it is also included in the citation for your dataset. Anyone who uses your data product will cite your data using the title you construct. Consider the following suggestions when constructing a title for your data product:</p>
+<ul>
+<li>Make your title brief, but descriptive of the contents of the dataset. Since data products are first class research products - consider giving your data product a title that is similar to the type of title you construct for your journal papers.</li>
+</ul>
+<blockquote>
+<p>Example: Seasonal changes in organic matter composition and nutrients in coastal urban canals of Miami-Date County, Florida</p>
+</blockquote>
+<ul>
+<li>You may want to include a geographic area, site name or code, or an indication that the data product is affiliated with your thematic cluster project in the title.</li>
+</ul>
+<blockquote>
+<p>Example: Air temperature data for Dead Run watershed, Baltimore County, MD, USA</p>
+</blockquote>
+<ul>
+<li>Consider including brief information about the content of your data product in the title.</li>
+</ul>
+<blockquote>
+<p>Example: Watershed boundaries, hydrography, stream gage locations, and impervious surface area shapefiles for Pennypack Creek watershed in Bucks, Montgomery and Philadelphia Counties, PA, USA</p>
+</blockquote>
+<ul>
+<li>Avoid including acronyms in your title.</li>
+<li>Avoid including special characters (e.g., "&amp;", "+", "%", or characters that are reserved for programming languages) in your title.</li>
+<li>Avoid including metadata in your title that belongs in other metadata fields. Try not to overload your title by concatenating a bunch of information into a cryptic title that nobody will understand.</li>
+<li>If your data product is specifically tied to a journal publication (i.e., it contains the exact data used in that publication), consider titling your data product similar to "Supporting data for X" where "X" is the title of the related publication. If you anticipate that your data product will be used by multiple journal publications, a more generic title would be better.</li>
+</ul>
+<blockquote>
+<p>Example: Supporting data and tools for "Impact of data temporal resolution on quantifying residential end uses of water"</p>
+</blockquote>
+<h2 id="create-a-descriptive-abstract-for-your-data-product">Create a Descriptive Abstract for your Data Product</h2>
+<p>The Abstract for your data product is important as it's likely the first (and perhaps last) piece of information a prospective user of your data will read before making a determination of whether they want to spend any more time evaluating or accessing your dataset. In general, you should approach writing the abstract for your data product in the same way you would approach writing the abstract for a journal or conference paper. In general, your Abstract should be a single paragraph, and may include the following elements:</p>
+<ul>
+<li>Brief background information, if needed</li>
+<li>Brief description of what the resource contains - what data are in the resource?</li>
+<li>Brief description of the purpose of the data - why was it produced/collected?</li>
+<li>Brief description of your research design and methods - how was the data produced/collected?</li>
+<li>Brief description of location - NOTE: Detailed descriptions of data collection sites and locations should be included in a readme file and/or in a data file or shapefile in your content files.</li>
+<li>Brief description of the variables observed - NOTE: Also consider adding these as keywords.</li>
+<li>Brief information about what the data show - e.g., what results have been derived from the data?</li>
+<li>Brief statement of how the data might be useful or how it might be used</li>
+</ul>
+<p>Avoid the following when creating your Abstract:</p>
+<ul>
+<li>Overloading the Abstract with metadata that belongs elsewhere. For example:</li>
+<li>Do not put citations for related resources in the Abstract, use the Related Resources metadata instead</li>
+<li>Put funding agency information in the Credits/Funding Agency metadata rather than in your abstract</li>
+<li>Going too in depth into the description or structure of your resource - use a readme file for that instead</li>
+<li>Using complex formatting - this is usually lost when being transferred among different systems* </li>
+</ul>
+<h2 id="select-keywords-for-your-data-product">Select Keywords for your Data Product</h2>
+<p>Keywords are important metadata that help categorize and describe your data product. They are also important in enabling other scientists and prospective data users to discover your data product. Use the following guidelines to select appropriate keywords to describe your dataset:</p>
+<ul>
+<li>Tag your dataset/product with the subject keyword “CZNet” (see specific guidance for CZNet data products above).</li>
+<li>Tag your dataset/product with a subject keyword that is unique to your Thematic Cluster project. Use this keyword consistently for all products you share (see specific guidance for CZNet data products above).</li>
+<li>Add keywords that describe the subject of your data product (e.g., "Critical Zone", "Streamflow", "Water quality").</li>
+<li>Add keywords that describe the geographic area to which your dataset applies (e.g., "Utah", "Logan River Watershed")</li>
+<li>Capitalize the first letter of keywords. If your keyword is a phrase, capitalize only the first word (e.g., "Water quality"). If your keyword is a proper name, capitalize the first letter of each word (e.g., "Logan River Watershed").</li>
+<li>Avoid misspelling or using variants of the same keyword (e.g., use "Temperature" consistently rather than "Temp.")</li>
+<li>Full phrases will have more meaning, but add acronyms if you want to enable discovery using that term. For example "Logan River Observatory" is more informative than "LRO", but some users may want to search using "LRO". In this case you may want to add both.</li>
+<li>Keywords may be a single word or several words (e.g., phrases), but keep them very brief. This isn't the place for sentences.</li>
+<li>Choose keywords that are commonly used to describe the type of data product you are describing.</li>
+<li>Avoid special characters (e.g., characters reserved for programming languages), abbreviations, and contractions. </li>
+<li>Do not use punctuation.</li>
+<li>You may consider keywords that describe observed variables (e.g., "Temperature", "Nitrogen"), and/or methods used to produce the data product. However, avoid using units in your keywords (e.g., use "Discharge" not "Discharge (m3/s)"). </li>
+<li>Where you choose keywords describing observed variables, consider selecting them from the ODM2 VariableName controlled vocabulary <a href="http://vocabulary.odm2.org/variablename/">http://vocabulary.odm2.org/variablename/</a>.</li>
+<li>You may consider using keywords that have been used by other, similar data products to ensure that they can be discovered together. You can even test this by searching HydroShare, EarthChem, or other repositories using specific keywords to see what is returned before you select your final set of keywords.</li>
+</ul>
+<p>Remember - the keywords you use to describe your data product will be part of the metadata that is cataloged and used to enable discovery of your data product. Choose keywords that you think will help people find your data product. Leave all of the other descriptive metadata for the other descriptive metadata elements (e.g., Title, Abstract, etc.).</p>
+<h2 id="provide-author-information">Provide Author Information</h2>
+<p>Given that data are considered primary products of research that are citable for scholarly credit, it is important that you provide full author information for the data/research products that you deposit into a data repository. Author information ends up in the citation for resources and is also included in the CZNet data discovery capabilities, so it is also important that Author information is specified consistently across all submitted resources with which an Author is affilated. For resources submitted through or registered with the Data Submission Portal, we suggest the following format for Author names:</p>
+<blockquote>
+<p>Family, Given</p>
+</blockquote>
+<p>For example:</p>
+<blockquote>
+<p>Horsburgh, Jeffery S.</p>
+</blockquote>
+<p>The researchers you work with may have standardized on a particular way of expressing their name so that all scholarly products are correctly attributed to them. We encourage anyone who is submitting resources on behalf of another party (e.g., Cluster Data Managers) to check with investigators to ensure that Author names are expressed correctly prior to permanently publishing resources. Once a resource is published and a DOI is issued, author information generally cannot be changed.</p>
+<p>It is best practice to also provide affiliation information for each author. Affiliations should be specified as the affiliation under which the resource was created. We recommend that Data Managers work with authors to ensure that affiliation information is entered correctly and consistently (e.g., use the same Organization Name, Address, etc. for each resource with which an Author is affiliated to avoid ambiguity).</p>
+<h2 id="provide-spatial-and-temporal-coverage-information">Provide Spatial and Temporal Coverage Information</h2>
+<p>Spatial and temporal coverage information is important for people who may be searching for data collected within or near a particular place or region and/or that were collected within or are representative of a specific time period. The purpose of coverage information is not to visualize the spatial or temporal qualities or complexity of your data. Instead, it is meant to provide viewers with information about where the spatial and/or temporal region to which the data are applicable. The following are recommendations for specifying spatial and temporal coverage for the different repositories supported by CZNet:</p>
+<ul>
+<li><strong>HydroShare</strong>: HydroShare represents spatial coverage information as a bounding box or a discrete point in space. You can choose which to use, and you can input the coordinates for the bounding box or point manually or by using the map control to draw the point or box on the map. HydroShare allows you to enter the temporal coverage as a time period by choosing a starting and ending date. </li>
+<li><strong>EarthChem</strong>: The EarthChem repository allows you to specify the spatial coverage as "Global", "Regional (Continents, Oceans)", or "Space/Planetary" along with adding geographic keywords. EarthChem then draws coverage information from the coordinates associated with the dataset's individual samples. Samples must be registered with SESAR and receive IGSNs for this association to work correctly. </li>
+<li><strong>Zenodo</strong>: The Zenodo repository does not include spatial or temporal coverage information as part of its metadata. If you want to share a resource in Zenodo and you want to specify spatial or temporal coverage information, you could add this information to the "Additional notes" metadata field in Zenodo.</li>
+<li><strong>Other Repositories</strong>: If you are using the Data Submission Portal to register a dataset from a different repository, specifying the spatial and temporal coverage is the same as for the HydroShare repository.</li>
+</ul>
+<p><strong>NOTE</strong>: The CZNet Cataloging and Discovery system includes a filter for data temporal coverage. Given that specifying the temporal coverage of your dataset is optional, only datasets that have information for temporal coverage will respond to this filter. The CZ Hub team is also working spatial filtering capability, which, similar to temporal coverage, will only work for those datasets for which spatial coverage information is specified.</p>
+<h2 id="provide-funding-agency-information">Provide Funding Agency Information</h2>
+<p>It is best practice to provide an acknowledgment to the agency or funding source that provided the support under which data/research products were produced. For CZNet Thematic Cluster projects, this is the NSF award that funded the Cluster project. Several of the Thematic Cluster projects have collaborative awards, which means that there are multiple NSF award numbers.</p>
+<p>We recommend that you provide full funding agency information for each data/research product that is submitted to a repository. For each product, you should provide the following information:</p>
+<ul>
+<li>Agency Name - e.g., "National Science Foundation"</li>
+<li>Award Title - e.g., "Collaborative Research: Network Hub: Enabling, Supporting, and Communicating Critical Zone Research"</li>
+<li>Award Numver - e.g., "2012748"</li>
+<li>Funding Agency URL - e.g., "<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2012748">https://www.nsf.gov/awardsearch/showAward?AWD_ID=2012748</a>"</li>
+</ul>
+<p>For those Thematic Cluster projects that have more than one NSF award, where appropriate we recommend adding multiple funding agency metadata elemements for each award. We also recommend this for products that may have been co-funded by multiple projects and/or agencies. You should include a funding agency element for each one.</p>
+<p>The CZNet Catalog and Discovery system uses the NSF award numbers to match your data products to your Thematic Cluster project. Thus, if you want your data products to respond to the CZ Project filter in the Catalog and Discovery system, you must include at least one of your Thematic Cluster project's NSF award numbers in the funding agency metadata.</p>
+<h2 id="use-common-quality-controldata-levels">Use Common Quality Control/Data Levels</h2>
+<p>We suggest a set of standardized quality control/data levels that can be used to describe data. These data levels are independent of data type. Including a specific data level as part of the metadata for a dataset will help potential users understand how the data can/should be used. Suggested data levels are listed in the following table.</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Definition</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Raw data</td>
+<td>Raw and unprocessed data and data products that have not undergone quality control. Depending on the variable, data type, and data transmission system, raw data may be available within seconds or minutes after the measurements have been made. Examples include real time precipitation, streamflow, and water quality measurements.</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Quality controlled data</td>
+<td>Quality controlled data that have passed quality assurance procedures such as routine estimation of timing and sensor calibration or visual inspection and removal of obvious errors. An example is USGS published streamflow records following parsing through USGS quality control procedures.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Derived products</td>
+<td>Derived products that require scientific and technical interpretation and may include multiple-sensor data. An example is basin average precipitation derived from rain gages using an interpolation procedure.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Interpreted products</td>
+<td>Interpreted products that require researcher driven analysis and interpretation, model-based interpretation using other data and/or strong prior assumptions. An example is basin average precipitation derived from the combination of rain gages and radar return data.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Knowledge products</td>
+<td>Knowledge products that require researcher driven scientific interpretation and multidisciplinary data integration and include model-based interpretation using other data and/or strong prior assumptions. An example is percentages of old or new water in a hydrograph inferred from an isotope analysis.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="use-consistent-missing-data-labels-nodata-values">Use Consistent Missing Data Labels (NoData Values)</h2>
+<p>Missing data labels, or NoData values, are values that you insert into your data to indicate that a value for an observation should exist but for some reason doesn't. Usually, these values are selected such that they are easily recognizable and out of the valid range of data values for whatever the observed variable is. We recommend the following practices for CZNet datasets
+* If you use a NoData value, make sure you define it in associated metadata
+* The preferred NoData value for CZNet datasets is -9999
+* Don't mix strings and numeric values in a single data column. For example, don't insert a NoData value of "NA" into a numeric data column.
+* Work to educate students, colleagues, and collaborators what -9999 means in a dataset to minimize potential errors in analyses.</p>
+<h2 id="linking-datasets-with-publications">Linking Datasets with Publications</h2>
+<p>We strongly recommend creating formal linkages between the datasets you have deposited within the above mentioned repositories and any manuscripts that you submit for publication that use or are based on the data. This ensures that anyone who discovers the paper can link to and access the data used and anyone who discovers the data can link to and access publications that have used the data.</p>
+<p>After depositing your datasets within one of the above repositories we recommend formally citing the data within any research manuscripts based on the data that you submit for publication. Recommendations in the Author Guide for the journal to which you submit may determine how datasets are cited in the text of the paper. In the absence of specific instructions from the journal, we recommend citing data within the text of the paper using the journal’s citation style (e.g., Author(s), Year) and including a full bibliographic citation to the dataset within the references section of the paper.</p>
+<p>Once a paper has been accepted for publication and a digital object identifier (DOI) or citation has been issued for the paper, you should modify the metadata for the dataset in the repository to include a link to the paper as a “related resource.”</p>
+<h2 id="potentally-useful-data-management-resources">Potentally Useful Data Management Resources</h2>
+<p>The following references are provided for publications that you may find useful in considering the data management needs of your thematic cluster as well as cross-cluster and other collaborations:</p>
+<h3 id="guidelines-for-structuring-and-formatting-data">Guidelines for Structuring and Formatting Data</h3>
+<p>Borer, E.T., Seabloom, E.W., Jones, M.B., Schildhauer, M. (2009). Some simple guidelines for effective data management, Bulletin Ecological Society of America, 90(2), 205-214, https://doi.org/10.1890/0012-9623-90.2.205</p>
+<p>Broman, K. W., &amp; Woo, K. H. (2018). Data Organization in Spreadsheets. The American Statistician, 72(1), 2–10. https://doi.org/10.1080/00031305.2017.1375989</p>
+<p>Goodman, A., Pepe, A., Blocker, A. W., Borgman, C. L., Cranmer, K., Crosas, M., Di Stefano, R., Gil, Y., Groth, P., Hedstrom, M., Hogg, D. W., Kashyap, V., Mahabal, A., Siemiginowska, A., &amp; Slavkovic, A. (2014). Ten Simple Rules for the Care and Feeding of Scientific Data. PLoS Computational Biology, 10(4), e1003542. https://doi.org/10.1371/journal.pcbi.1003542</p>
+<p>Hart, E. M., Barmby, P., LeBauer, D., Michonneau, F., Mount, S., Mulrooney, P., Poisot, T., Woo, K. H., Zimmerman, N. B., &amp; Hollister, J. W. (2016). Ten Simple Rules for Digital Data Storage. PLOS Computational Biology, 12(10), e1005097. https://doi.org/10.1371/journal.pcbi.1005097</p>
+<p>Wickham, H. (2014). Tidy Data. Journal of Statistical Software, 59(10), Article 10. https://doi.org/10.18637/jss.v059.i10</p>
+<h3 id="guidelines-for-citing-data">Guidelines for Citing Data</h3>
+<p>Colavizza, G., Hrynaszkiewicz, I., Staden, I., Whitaker, K., &amp; McGillivray, B. (2020). The citation advantage of linking publications to research data. PLOS ONE, 15(4), e0230416. https://doi.org/10.1371/journal.pone.0230416</p>
+<p>Guidelines for Making Data More Reusable</p>
+<p>White, E., Baldridge, E., Brym, Z., Locey, K., McGlinn, D., &amp; Supp, S. (2013). Nine simple ways to make it easier to (re)use your data. Ideas in Ecology and Evolution, 6(2), Article 2. https://doi.org/10.4033/iee.2013.6b.6.f</p>
+<h3 id="guidelines-for-selecting-a-data-repository">Guidelines for Selecting a Data Repository</h3>
+<p>Sansone, S.-A., McQuilton, P., Cousijn, H., Cannon, M., et al (2020). Data Repository Selection: Criteria That Matter. Zenodo. https://doi.org/10.5281/zenodo.4084763</p>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../contribute/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Contribute">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Contribute
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../geospatial_data/geospatial_data/" class="md-footer__link md-footer__link--next" aria-label="Next: Sharing Geospatial Data">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Sharing Geospatial Data
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["search.suggest", "search.highlight", "content.action.edit", "navigation.footer"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+    
+  </body>
+</html>
