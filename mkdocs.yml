@@ -31,6 +31,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Contribute: contribute.md
   - Data Publication Guidance: data_publication_guidance.md
   - Best Practices:
       Sharing Geospatial Data: geospatial_data/geospatial_data.md

@@ -12,7 +12,7 @@ To view the data best practices in HTML format, please visit:
 
 ## Contributing Content
 
-If you would like to contribute to the development of these best practice documents, you can clone this repository and submit a pull request. Or, you can contact us directly and send content via a file, Google Doc, or whatever is convenient for you.
+If you would like to contribute to the development of these best practice documents, you can fork this repository and submit a pull request. Or, you can use one of the other options described [here](/docs/contribute.md).
 
 ### Contacts
 

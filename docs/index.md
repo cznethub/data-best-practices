@@ -15,7 +15,7 @@ For guidance on specific data types, please consultt the following best practice
 
 ## Contributing Content
 
-If you would like to contribute to the development of these best practice documents, you can clone the [GitHub repository on which this content is based](https://github.com/cznethub/data-best-practices) and submit a pull request. Or, you can contact us directly and send content via a file, Google Doc, or whatever is convenient for you.
+Click [here](contribute.md) for instructions on how to suggest edits to or contribute new content to these best practices.
 
 ### Contacts
 
